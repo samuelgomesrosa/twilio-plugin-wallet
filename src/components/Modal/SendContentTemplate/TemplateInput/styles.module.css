@@ -1,0 +1,34 @@
+.variableContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.variableContainer label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0.1rem !important;
+}
+
+.variableContainer input {
+  width: 100% !important;
+}
+
+.characterCount {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+  color: #ccc;
+}
+
+.inputErrorCharacterLimitExceeded {
+  color: red !important;
+  border: 1px solid red !important;
+  box-shadow: 0 0 4px red !important;
+}
+
+.characterLimitExceededMessage {
+  color: red;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
